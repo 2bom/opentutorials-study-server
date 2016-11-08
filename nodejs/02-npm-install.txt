@@ -1,0 +1,10 @@
+0. npm에서 package를 설치하기 위해서는 우선 package를 설치하여 사용할 작업공간을 npm의 패키지로 만들어야한다.
+    $ npm init
+
+1. 기본사항 입력 > 입력된 값에 대한 package.json파일이 생성.
+    $ npm install underscore
+
+  * 똑같이 설치하는 건데 dependencies를 추가하기 위해서는 '--save'를 추가해준다.
+    이 패키지가 다른 곳에서 사용될때도 무조건 필요하다 싶으면 --save를 써주는걸로. 그러나 웬만하면 --save는 항상 추가해주는 걸로 한다. 뺴는 상황이 이해가 될 때 빼고는 없을 때 문제가 있을 확률이 더 높음.
+    $ npm install underscore --save
+
